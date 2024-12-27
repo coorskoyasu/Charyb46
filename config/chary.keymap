@@ -2,7 +2,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 
 #define DEFAULT 0
 #define NUMBER  1
@@ -27,6 +26,293 @@
             label = "new_macro";
             #binding-cells = <0>;
             bindings = <&kp LSHIFT &kp LBKT &kp RBKT &kp LEFT &kp LSHIFT>;
+        };
+
+        macroKA: macroKA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp K &kp A>;
+            label = "MACROKA";
+        };
+
+        macroKI: macroKI {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(K) &kp LS(I)>;
+            label = "MACROKI";
+        };
+
+        macroKU: macroKU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(K) &kp LS(U)>;
+            label = "MACROKU";
+        };
+
+        macroKE: macroKE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(K) &kp LS(E)>;
+            label = "MACROKE";
+        };
+
+        macroKO: macroKO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(K) &kp LS(O)>;
+            label = "MACROKO";
+        };
+
+        macroSA: macroSA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp S &kp A>;
+            label = "MACROSA";
+        };
+
+        macroSI: macroSI {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp S &kp I>;
+            label = "MACROSI";
+        };
+
+        macroSU: macroSU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp S &kp U>;
+            label = "MACROSU";
+        };
+
+        macroSE: macroSE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp S &kp E>;
+            label = "MACROSE";
+        };
+
+        macroSO: macroSO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp S &kp O>;
+            label = "MACROSO";
+        };
+
+        macroTA: macroTA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp T &kp A>;
+            label = "MACROTA";
+        };
+
+        macroTI: macroTI {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp T &kp I>;
+            label = "MACROTI";
+        };
+
+        macroTU: macroTU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp T &kp U>;
+            label = "MACROTU";
+        };
+
+        macroTE: macroTE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp T &kp E>;
+            label = "MACROTE";
+        };
+
+        macroTO: macroTO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp T &kp O>;
+            label = "MACROTO";
+        };
+
+        macroNA: macroNA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp N &kp A>;
+            label = "MACRONA";
+        };
+
+        macroNI: macroNI {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp N &kp I>;
+            label = "MACRONI";
+        };
+
+        macroNU: macroNU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp N &kp U>;
+            label = "MACRONU";
+        };
+
+        macroNE: macroNE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp N &kp E>;
+            label = "MACRONE";
+        };
+
+        macroNO: macroNO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp N &kp O>;
+            label = "MACRONO";
+        };
+
+        macroHA: macroHA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp H &kp A>;
+            label = "MACROHA";
+        };
+
+        macroHI: macroHI {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp H &kp I>;
+            label = "MACROHI";
+        };
+
+        macroHU: macroHU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp H &kp U>;
+            label = "MACROHU";
+        };
+
+        macroHE: macroHE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp H &kp E>;
+            label = "MACROHE";
+        };
+
+        macroHO: macroHO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp H &kp O>;
+            label = "MACROHO";
+        };
+
+        macroMA: macroMA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp M &kp A>;
+            label = "MACROMA";
+        };
+
+        macroMI: macroMI {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp M &kp I>;
+            label = "MACROMI";
+        };
+
+        macroMU: macroMU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp M &kp U>;
+            label = "MACROMU";
+        };
+
+        macroME: macroME {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp M &kp E>;
+            label = "MACROME";
+        };
+
+        macroMO: macroMO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp M &kp O>;
+            label = "MACROMO";
+        };
+
+        macroYA: macroYA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp Y &kp A>;
+            label = "MACROYA";
+        };
+
+        macroYU: macroYU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp Y &kp U>;
+            label = "MACROYU";
+        };
+
+        macroYO: macroYO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp Y &kp O>;
+            label = "MACROYO";
+        };
+
+        macroRA: macroRA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp R &kp A>;
+            label = "MACRORA";
+        };
+
+        macroRI: macroRI {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp R &kp I>;
+            label = "MACRORI";
+        };
+
+        macroRU: macroRU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp R &kp U>;
+            label = "MACRORU";
+        };
+
+        macroRE: macroRE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp R &kp E>;
+            label = "MACRORE";
+        };
+
+        macroRO: macroRO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp R &kp O>;
+            label = "MACRORO";
+        };
+
+        macroWA: macroWA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp W &kp A>;
+            label = "MACROWA";
+        };
+
+        macroWO: macroWO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp W &kp O>;
+            label = "MACROWO";
+        };
+
+        macroNN: macroNN {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp N &kp N>;
+            label = "MACRONN";
         };
     };
 
@@ -86,6 +372,111 @@
             layers = <0 1>;
             timeout-ms = <50>;
         };
+
+        ComboA {
+            bindings = <&kp A>;
+            key-positions = <48 26>;
+        };
+
+        ComboE {
+            bindings = <&kp E>;
+            key-positions = <48 14>;
+        };
+
+        ComboO {
+            bindings = <&kp O>;
+            key-positions = <53 31>;
+        };
+
+        ComboNA {
+            bindings = <&macroNA>;
+            key-positions = <48 27>;
+        };
+
+        ComboNI {
+            bindings = <&macroNI>;
+            key-positions = <55 19>;
+        };
+
+        ComboNU {
+            bindings = <&macroNU>;
+            key-positions = <55 42>;
+        };
+
+        ComboNO {
+            bindings = <&macroNO>;
+            key-positions = <55 32>;
+        };
+
+        ComboMA {
+            bindings = <&macroMA>;
+            key-positions = <55 21>;
+        };
+
+        ComboMI {
+            bindings = <&macroMI>;
+            key-positions = <55 30>;
+        };
+
+        ComboMU {
+            bindings = <&macroMU>;
+            key-positions = <55 44>;
+        };
+
+        ComboMO {
+            bindings = <&macroMO>;
+            key-positions = <48 29>;
+        };
+
+        ComboYA {
+            bindings = <&macroYA>;
+            key-positions = <48 40>;
+        };
+
+        ComboYU {
+            bindings = <&macroYU>;
+            key-positions = <55 43>;
+        };
+
+        ComboYO {
+            bindings = <&macroYO>;
+            key-positions = <55 18>;
+        };
+
+        ComboRI {
+            bindings = <&macroRI>;
+            key-positions = <48 15>;
+        };
+
+        ComboRU {
+            bindings = <&macroRU>;
+            key-positions = <55 20>;
+        };
+
+        ComboRE {
+            bindings = <&macroRE>;
+            key-positions = <48 17>;
+        };
+
+        ComboRO {
+            bindings = <&macroRO>;
+            key-positions = <48 39>;
+        };
+
+        ComboWA {
+            bindings = <&macroWA>;
+            key-positions = <55 45>;
+        };
+
+        ComboWO {
+            bindings = <&macroWO>;
+            key-positions = <25 48>;
+        };
+
+        ComboNN {
+            bindings = <&macroNN>;
+            key-positions = <55 46>;
+        };
     };
 
     keymap {
@@ -94,11 +485,11 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&lt 1 ESC         &kp N1            &kp N2     &kp N3  &kp N4        &kp N5   &kp N6  &kp N7   &kp N8         &kp N9          &kp N0    &kp MINUS
-&lt 2 TAB         &kp Q             &kp W      &kp E   &kp R         &kp T    &kp Y   &kp U    &kp I          &kp O           &kp P     &kp LEFT_BRACKET
-&kp LEFT_CONTROL  &kp A             &kp S      &kp D   &kp F         &kp G    &kp H   &kp J    &kp K          &kp L           &kp SEMI  &kp BACKSPACE
-&kp LSHFT         &kp Z             &kp X      &kp C   &kp V         &kp B    &kp N   &kp M    &kp COMMA      &kp DOT         &kp FSLH  &kp RSHFT
-                  &kp INT_MUHENKAN  &kp SPACE  &mo 1   &kp LEFT_ALT  &kp DEL          &kp RET  &kp RC(SPACE)  &kp INT_HENKAN
+&lt 1 ESC         &kp N1            &kp N2     &kp N3  &kp N4        &kp N5   &kp N6  &kp N7   &kp N8     &kp N9          &kp N0    &kp MINUS
+&lt 2 TAB         &kp Q             &kp W      &kp E   &kp R         &kp T    &kp Y   &kp U    &kp I      &kp O           &kp P     &kp LEFT_BRACKET
+&kp LEFT_CONTROL  &kp A             &kp S      &kp D   &kp F         &kp G    &kp H   &kp J    &kp K      &kp L           &kp SEMI  &kp BACKSPACE
+&kp LSHFT         &kp Z             &kp X      &kp C   &kp V         &kp B    &kp N   &kp M    &kp COMMA  &kp DOT         &kp FSLH  &kp RSHFT
+                  &kp INT_MUHENKAN  &kp SPACE  &mo 1   &kp LEFT_ALT  &kp DEL          &kp RET  &to 2      &kp INT_HENKAN
             >;
         };
 
@@ -116,11 +507,11 @@
         symbol_layer {
             label = "SYMBOL";
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-&sys_reset    &none         &none         &none         &none         &out OUT_USB  &out OUT_USB  &none         &none         &none         &none         &sys_reset
-&none         &none         &none         &none         &none         &out OUT_BLE  &out OUT_BLE  &none         &none         &none         &none         &none
-&none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &none
-              &none         &none         &none         &none         &none                       &none         &none         &none
+&bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3         &bt BT_SEL 4  &bt BT_CLR
+&sys_reset    &none             &macroKA      &macroTA      &macroKO      &macroSA    &macroRA      &macroTI      &macroKU      &macroTU             &none         &sys_reset
+&none         &kp U             &macroSI      &macroTE      &macroKE      &macroSE    &macroHA      &macroTO      &none         &macroKI             &kp I         &none
+&none         &none             &macroHI      &macroSU      &macroHU      &macroHE    &macroME      &macroSO      &macroNE      &macroHO             &none         &none
+              &kp INT_MUHENKAN  &none         &none         &none         &none                     &none         &to 0         &kp INTERNATIONAL_4
             >;
         };
 
