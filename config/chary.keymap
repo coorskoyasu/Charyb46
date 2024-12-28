@@ -715,6 +715,176 @@
             bindings = <&macroNN>;
             key-positions = <55 46>;
         };
+
+        ComboLya {
+            bindings = <&macroLya>;
+            key-positions = <48 16>;
+        };
+
+        ComboLyu {
+            bindings = <&macroLyu>;
+            key-positions = <48 28>;
+        };
+
+        ComboLyo {
+            bindings = <&macroLyo>;
+            key-positions = <55 33>;
+        };
+
+        ComboLA {
+            bindings = <&macroLa>;
+            key-positions = <48 13>;
+        };
+
+        ComboLI {
+            bindings = <&macroLi>;
+            key-positions = <48 41>;
+        };
+
+        ComboLU {
+            bindings = <&macroLu>;
+            key-positions = <48 37>;
+        };
+
+        ComboLE {
+            bindings = <&macroLe>;
+            key-positions = <55 22>;
+        };
+
+        ComboLO {
+            bindings = <&macroLo>;
+            key-positions = <55 46>;
+        };
+
+        ComboPA {
+            bindings = <&macroPA>;
+            key-positions = <36 30>;
+        };
+
+        ComboPI {
+            bindings = <&macroPA>;
+            key-positions = <37 47>;
+        };
+
+        ComboPU {
+            bindings = <&macroPU>;
+            key-positions = <47 40>;
+        };
+
+        ComboPE {
+            bindings = <&macroPE>;
+            key-positions = <41 47>;
+        };
+
+        ComboPO {
+            bindings = <&macroPO>;
+            key-positions = <36 45>;
+        };
+
+        ComboGA {
+            bindings = <&macroGA>;
+            key-positions = <55 14>;
+        };
+
+        ComboGI {
+            bindings = <&macroGI>;
+            key-positions = <48 32>;
+        };
+
+        ComboGU {
+            bindings = <&macroGU>;
+            key-positions = <48 20>;
+        };
+
+        ComboGE {
+            bindings = <&macroGE>;
+            key-positions = <55 28>;
+        };
+
+        ComboGO {
+            bindings = <&macroGO>;
+            key-positions = <48 19>;
+        };
+
+        ComboZA {
+            bindings = <&macroZA>;
+            key-positions = <48 18>;
+        };
+
+        ComboZI {
+            bindings = <&macroZI>;
+            key-positions = <55 26>;
+        };
+
+        ComboZU {
+            bindings = <&macroZU>;
+            key-positions = <38 55>;
+        };
+
+        ComboZE {
+            bindings = <&macroZE>;
+            key-positions = <29 55>;
+        };
+
+        ComboZO {
+            bindings = <&macroZO>;
+            key-positions = <48 43>;
+        };
+
+        ComboDA {
+            bindings = <&macroDA>;
+            key-positions = <14 55>;
+        };
+
+        ComboDI {
+            bindings = <&macroDI>;
+            key-positions = <48 19>;
+        };
+
+        ComboDU {
+            bindings = <&macroDU>;
+            key-positions = <48 21>;
+        };
+
+        ComboDE {
+            bindings = <&macroDE>;
+            key-positions = <27 55>;
+        };
+
+        ComboDO {
+            bindings = <&macroDO>;
+            key-positions = <48 31>;
+        };
+
+        ComboBA {
+            bindings = <&macroBA>;
+            key-positions = <48 30>;
+        };
+
+        ComboBI {
+            bindings = <&macroBI>;
+            key-positions = <55 38>;
+        };
+
+        ComboBU {
+            bindings = <&macroBU>;
+            key-positions = <40 55>;
+        };
+
+        ComboBE {
+            bindings = <&macroBE>;
+            key-positions = <41 55>;
+        };
+
+        ComboBO {
+            bindings = <&macroBO>;
+            key-positions = <48 45>;
+        };
+
+        ComboLTU {
+            bindings = <&macroLTU>;
+            key-positions = <55 34>;
+        };
     };
 
     keymap {
@@ -723,33 +893,33 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&lt 1 ESC         &kp N1            &kp N2     &kp N3  &kp N4        &kp N5   &kp N6  &kp N7   &kp N8     &kp N9          &kp N0    &kp MINUS
-&lt 2 TAB         &kp Q             &kp W      &kp E   &kp R         &kp T    &kp Y   &kp U    &kp I      &kp O           &kp P     &kp LEFT_BRACKET
-&kp LEFT_CONTROL  &kp A             &kp S      &kp D   &kp F         &kp G    &kp H   &kp J    &kp K      &kp L           &kp SEMI  &kp BACKSPACE
-&kp LSHFT         &kp Z             &kp X      &kp C   &kp V         &kp B    &kp N   &kp M    &kp COMMA  &kp DOT         &kp FSLH  &kp RSHFT
-                  &kp INT_MUHENKAN  &kp SPACE  &mo 1   &kp LEFT_ALT  &kp DEL          &kp RET  &to 2      &kp INT_HENKAN
+&kp ESCAPE        &kp N1            &kp N2     &kp N3  &kp N4  &kp N5   &kp N6  &kp N7   &kp N8     &kp N9          &kp N0    &kp MINUS
+&kp TAB           &kp Q             &kp W      &kp E   &kp R   &kp T    &kp Y   &kp U    &kp I      &kp O           &kp P     &kp LEFT_BRACKET
+&kp LEFT_CONTROL  &kp A             &kp S      &kp D   &kp F   &kp G    &kp H   &kp J    &kp K      &kp L           &kp SEMI  &kp BACKSPACE
+&kp LSHFT         &kp Z             &kp X      &kp C   &kp V   &kp B    &kp N   &kp M    &kp COMMA  &kp DOT         &kp FSLH  &kp RSHFT
+                  &kp INT_MUHENKAN  &kp SPACE  &mo 1   &to 2   &kp DEL          &kp RET  &mo 1      &kp INT_HENKAN
             >;
         };
 
         number_layer {
             label = "NUMBER";
             bindings = <
-&sys_reset      &kp F1        &kp F2        &kp F3        &kp F4         &kp F5         &kp F6  &kp F7     &kp F8     &kp F9     &kp F10      &sys_reset
+&bootloader     &kp F1        &kp F2        &kp F3        &kp F4         &kp F5         &kp F6  &kp F7     &kp F8     &kp F9     &kp F10      &bootloader
 &kp C_VOL_DN    &kp C_VOL_UP  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_DISC 0  &bt BT_DISC 1  &none   &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS  &none
 &none           &none         &kp LEFT      &kp UP        &kp RIGHT      &none          &none   &kp KP_N4  &kp UP     &kp KP_N6  &none        &none
 &macro_email_q  &GUANJIANCI   &kp LEFT      &kp DOWN      &kp RIGHT      &none          &none   &kp LEFT   &kp DOWN   &kp RIGHT  &none        &none
-                &none         &none         &none         &none          &none                  &none      &none      &none
+                &trans        &trans        &trans        &trans         &trans                 &trans     &trans     &trans
             >;
         };
 
         symbol_layer {
             label = "SYMBOL";
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3         &bt BT_SEL 4  &bt BT_CLR
-&sys_reset    &none             &macroKA      &macroTA      &macroKO      &macroSA    &macroRA      &macroTI      &macroKU      &macroTU             &none         &sys_reset
-&none         &kp U             &macroSI      &macroTE      &macroKE      &macroSE    &macroHA      &macroTO      &none         &macroKI             &kp I         &none
-&none         &none             &macroHI      &macroSU      &macroHU      &macroHE    &macroME      &macroSO      &macroNE      &macroHO             &none         &none
-              &kp INT_MUHENKAN  &none         &none         &none         &none                     &none         &to 0         &kp INTERNATIONAL_4
+&kp ESCAPE        &kp N1            &kp N2     &kp N3    &kp N4    &kp N5    &kp N6    &kp N7    &kp N8    &kp N9               &kp N0     &kp MINUS
+&kp TAB           &kp PERIOD        &macroKA   &macroTA  &macroKO  &macroSA  &macroRA  &macroTI  &macroKU  &macroTU             &kp COMMA  &kp LEFT_BRACKET
+&kp LEFT_CONTROL  &kp U             &macroSI   &macroTE  &macroKE  &macroSE  &macroHA  &macroTO  &macroKI  &kp I                &kp SEMI   &kp BACKSPACE
+&kp LEFT_SHIFT    &kp PERIOD        &macroHI   &macroSU  &macroHU  &macroHE  &macroME  &macroSO  &macroNE  &macroHO             &kp SLASH  &kp RIGHT_SHIFT
+                  &kp INT_MUHENKAN  &kp SPACE  &mo 1     &to 0     &kp DEL             &kp RET   &mo 1     &kp INTERNATIONAL_4
             >;
         };
 
