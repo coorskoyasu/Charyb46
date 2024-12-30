@@ -613,12 +613,12 @@
 
         ComboA {
             bindings = <&kp A>;
-            key-positions = <48 26>;
+            key-positions = <50 26>;
         };
 
         ComboE {
             bindings = <&kp E>;
-            key-positions = <48 14>;
+            key-positions = <50 14>;
         };
 
         ComboO {
@@ -628,7 +628,7 @@
 
         ComboNA {
             bindings = <&macroNA>;
-            key-positions = <48 27>;
+            key-positions = <50 27>;
         };
 
         ComboNI {
@@ -663,12 +663,12 @@
 
         ComboMO {
             bindings = <&macroMO>;
-            key-positions = <48 29>;
+            key-positions = <50 29>;
         };
 
         ComboYA {
             bindings = <&macroYA>;
-            key-positions = <48 40>;
+            key-positions = <50 40>;
         };
 
         ComboYU {
@@ -683,22 +683,22 @@
 
         ComboRI {
             bindings = <&macroRI>;
-            key-positions = <48 15>;
+            key-positions = <50 15>;
         };
 
         ComboRU {
             bindings = <&macroRU>;
-            key-positions = <55 20>;
+            key-positions = <50 20>;
         };
 
         ComboRE {
             bindings = <&macroRE>;
-            key-positions = <48 17>;
+            key-positions = <50 17>;
         };
 
         ComboRO {
             bindings = <&macroRO>;
-            key-positions = <48 39>;
+            key-positions = <50 39>;
         };
 
         ComboWA {
@@ -708,7 +708,7 @@
 
         ComboWO {
             bindings = <&macroWO>;
-            key-positions = <25 48>;
+            key-positions = <25 50>;
         };
 
         ComboNN {
@@ -718,12 +718,12 @@
 
         ComboLya {
             bindings = <&macroLya>;
-            key-positions = <48 16>;
+            key-positions = <50 16>;
         };
 
         ComboLyu {
             bindings = <&macroLyu>;
-            key-positions = <48 28>;
+            key-positions = <50 28>;
         };
 
         ComboLyo {
@@ -733,17 +733,17 @@
 
         ComboLA {
             bindings = <&macroLa>;
-            key-positions = <48 13>;
+            key-positions = <50 13>;
         };
 
         ComboLI {
             bindings = <&macroLi>;
-            key-positions = <48 41>;
+            key-positions = <50 41>;
         };
 
         ComboLU {
             bindings = <&macroLu>;
-            key-positions = <48 37>;
+            key-positions = <50 37>;
         };
 
         ComboLE {
@@ -788,12 +788,12 @@
 
         ComboGI {
             bindings = <&macroGI>;
-            key-positions = <48 32>;
+            key-positions = <50 32>;
         };
 
         ComboGU {
             bindings = <&macroGU>;
-            key-positions = <48 20>;
+            key-positions = <50 20>;
         };
 
         ComboGE {
@@ -803,12 +803,12 @@
 
         ComboGO {
             bindings = <&macroGO>;
-            key-positions = <48 19>;
+            key-positions = <50 19>;
         };
 
         ComboZA {
             bindings = <&macroZA>;
-            key-positions = <48 18>;
+            key-positions = <50 18>;
         };
 
         ComboZI {
@@ -828,7 +828,7 @@
 
         ComboZO {
             bindings = <&macroZO>;
-            key-positions = <48 43>;
+            key-positions = <50 43>;
         };
 
         ComboDA {
@@ -838,12 +838,12 @@
 
         ComboDI {
             bindings = <&macroDI>;
-            key-positions = <48 19>;
+            key-positions = <50 19>;
         };
 
         ComboDU {
             bindings = <&macroDU>;
-            key-positions = <48 21>;
+            key-positions = <50 21>;
         };
 
         ComboDE {
@@ -853,12 +853,12 @@
 
         ComboDO {
             bindings = <&macroDO>;
-            key-positions = <48 31>;
+            key-positions = <50 31>;
         };
 
         ComboBA {
             bindings = <&macroBA>;
-            key-positions = <48 30>;
+            key-positions = <50 30>;
         };
 
         ComboBI {
@@ -878,7 +878,7 @@
 
         ComboBO {
             bindings = <&macroBO>;
-            key-positions = <48 45>;
+            key-positions = <50 45>;
         };
 
         ComboLTU {
@@ -907,7 +907,7 @@
 &bootloader     &kp F1        &kp F2        &kp F3        &kp F4         &kp F5         &kp F6  &kp F7     &kp F8     &kp F9     &kp F10      &bootloader
 &kp C_VOL_DN    &kp C_VOL_UP  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_DISC 0  &bt BT_DISC 1  &none   &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS  &none
 &none           &none         &kp LEFT      &kp UP        &kp RIGHT      &none          &none   &kp KP_N4  &kp UP     &kp KP_N6  &none        &none
-&none  &none   &kp LEFT      &kp DOWN      &kp RIGHT      &none          &none   &kp LEFT   &kp DOWN   &kp RIGHT  &none        &none
+&none  &none   &kp LEFT      &kp DOWN      &kp RIGHT      &none          &kp LEFT   &kp DOWN   &kp RIGHT  &none        &none  &none   
                 &trans        &trans        &trans        &trans         &trans                 &trans     &trans     &trans
             >;
         };
